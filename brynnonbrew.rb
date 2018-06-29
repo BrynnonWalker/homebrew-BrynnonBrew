@@ -11,10 +11,10 @@ class Brynnonbrew < Formula
     end
     
     def post_install
-        system "motion-brew"
+        # do some post installation here
     end
 
     test do
-        # do something here
+        # do something to test here
     end
 end
