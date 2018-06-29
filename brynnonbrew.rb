@@ -3,7 +3,7 @@ class Brynnonbrew < Formula
     homepage ""
     url "https://github.com/BrynnonWalker/BrynnonBrew/archive/v1.0.tar.gz"
     version "1.0"
-    sha256 "712c015ae1aa0ae22610f0cf04f45979a2f21c42d95e6116237052c711f6886d"
+    sha256 "eaee59b6869789989539f2ef8db4441d84677c33cd720648bf8cc82098c91984"
     
     def install
         prefix.install "bin", "data", "lib", "vendor", "LEGAL", "NEWS"
