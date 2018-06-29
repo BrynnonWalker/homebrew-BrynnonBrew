@@ -7,7 +7,6 @@ class Brynnonbrew < Formula
 
     def install
         prefix.install "bin", "data", "lib", "vendor", "LEGAL", "NEWS"
-        #bin.install "bin/motion-brew"
     end
     
     def post_install
